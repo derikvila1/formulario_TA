@@ -5,35 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use App\Models\Editais;
-use App\Models\EditaisEstados;
-use App\Models\EditaisDocumentos;
+
 
 class EditaisPublicController extends Controller
 {
-    public function index()
-    {
-        $estados = EditaisEstados::query()->get();
-        $editais = Editais::query()->get();
-        foreach ($editais as $edital) {
-            $edital->estado = $estados[$edital->estado - 1]->nome;
-        }
-        return view("publish.index", compact('estados', 'editais'));
-    }
-
-    public function detail($id)
-    {
-        $estados = EditaisEstados::query()->get();
-        $edital =  Editais::query()->where('id',$id)->get()->first();
-        $edital->estado = $estados[$edital->estado - 1]->nome;
-        $doc = EditaisDocumentos::query()->where('edital',$id)->get();
-        return view("publish.detail", compact('edital', 'doc'));
-    }
-
-    public function file($id)
-    {
-        return 'download de arquivo';
-    }
+   
 
     
 public function formulario()
@@ -47,10 +23,10 @@ public function formularioSave(Request $request)
 
     $hoje =  date('Y-m-d H:i:m');
         $uuid = Str::uuid();
-        $result = DB::connection('editais')->table('formulario')->where('uuid', $uuid)->first();
+        $result = DB::table('formulario')->where('uuid', $uuid)->first();
 
         if ($result == NULL) {
-            DB::connection('editais')->table('formulario')->insert([
+            DB::table('formulario')->insert([
                 'uuid' =>  $uuid,
                 'nome' => $request->nome,
                 'contato' => $request->tel,

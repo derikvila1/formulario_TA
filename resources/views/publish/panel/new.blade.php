@@ -12,9 +12,6 @@
 
 @section('content')
 
-@php
-dd($status)
-@endphp
    
 <html>
   <head>
@@ -27,11 +24,11 @@ dd($status)
 
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Ótimo',     11],
+          ['Bom',      2],
+          ['Regular',  2],
+          ['Ruim', 2],
+       
         ]);
 
         var options = {

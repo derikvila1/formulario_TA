@@ -15,7 +15,7 @@ return new class extends Migration
     public function up()
     {
    
-        Schema::connection('editais')->create('formulario', function (Blueprint $table) {
+        Schema::create('formulario', function (Blueprint $table) {
             $table->id();
             $table->uuid('uuid')->unique();
             $table->string('nome');
@@ -54,6 +54,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::connection('editais')->dropIfExists('formulario');
+        Schema::dropIfExists('formulario');
     }
 };
