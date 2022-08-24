@@ -69,7 +69,7 @@ Brasil.addEventListener('click', () => {
             ruim[i].innerHTML = 'Ruim';
         }
 
-        document.querySelector('.criticas-titulo').innerHTML = 'Criticas,Elogios ou Sugestões:'
+        document.querySelector('.criticas-titulo').innerHTML = 'Criticas, Elogios ou Sugestões:'
         document.querySelector('.button-confirmar').value = 'Confirmar'
     })
 
@@ -145,16 +145,16 @@ EstadosUnidos.addEventListener('click', () => {
 
 Espanha.addEventListener('click', () => {
     document.querySelector('.idioma-text').innerHTML = 'Idioma:'
-    document.querySelector('.Idioma-titulo').innerHTML = 'Nos gustaría conocer tu opinión sobre la experiencia de conocer nuestro mayor patrimonio histórico y cultural. ¿Vamos allá?'
+    document.querySelector('.Idioma-titulo').innerHTML = 'Nos gustaría conocer tu opinión sobre la experiencia de conocer nuestro mayor patrimonio histórico y cultural. ¿Vamos?'
     document.querySelector('.form-titulo').innerHTML = 'Forma'
     document.querySelector('.nome-form').innerHTML = 'Nombre:'
     document.querySelector('.contato-form').innerHTML = 'Contacto:'
     document.querySelector('.email-form').innerHTML = 'E-mail:'
     document.querySelector('.pais-form').innerHTML = 'País:'
     document.querySelector('.cidade-form').innerHTML = 'Ciudad:'
-    document.querySelector('.radio-titulo').innerHTML = 'Relacionado al Teatro Amazonas evalué los temas siguientes:'
+    document.querySelector('.radio-titulo').innerHTML = 'Sobre el Teatro Amazonas evalue los siguientes temas:'
     document.querySelector('.cafe-idioma').innerHTML = 'Café'
-    document.querySelector('.loja-idioma').innerHTML = 'Tienda de Artesanía'
+    document.querySelector('.loja-idioma').innerHTML = 'Tienda de Artesanato'
     document.querySelector('.eficiencia').innerHTML = 'Eficiencia'
     document.querySelector('.condutores').innerHTML = 'Guías/Visita'
     document.querySelector('.postura').innerHTML = 'Postura'
@@ -184,7 +184,7 @@ Espanha.addEventListener('click', () => {
 
     atendimento = document.querySelectorAll(".atendimento");
     for (let i = 0; i < atendimento.length; i++) {
-        atendimento[i].innerHTML = 'Atenciónal público';
+        atendimento[i].innerHTML = 'Atención al público';
     }
 
     const nodeList = document.querySelectorAll(".otimo");

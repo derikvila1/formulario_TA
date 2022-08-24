@@ -57,7 +57,7 @@ public function formularioSave(Request $request)
               
             ]);
             $msg_erro = "Formulário Cadastrado.";
-            return view("publish.panel.formulario", compact('msg_erro'));
+            return view("publish.panel.formularioConcluido");
         } else {
             $msg_erro = "Erro ao enviar formulário.";
             return view("publish.panel.formulario", compact('msg_erro'));

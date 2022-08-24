@@ -11,7 +11,14 @@
 @endsection
 
 @section('content')
+<?php
+$cafe_atendimento_otimo = 0;
+$cafe_atendimento_bom = 0;
+$cafe_atendimento_regular = 0;
+$cafe_atendimento_ruim = 0;
 
+while($status)
+?>
    
 <html>
   <head>
