@@ -56,6 +56,48 @@ $bilheteria_cordialidade_bom = 0;
 $bilheteria_cordialidade_regular = 0;
 $bilheteria_cordialidade_ruim = 0;
 
+//-----------------------------------------
+$condutores_cordialidade_otimo = 0;
+$condutores_cordialidade_bom = 0;
+$condutores_cordialidade_regular = 0;
+$condutores_cordialidade_ruim = 0;
+//-----------------------------------------
+$condutores_postura_otimo = 0;
+$condutores_postura_bom = 0;
+$condutores_postura_regular = 0;
+$condutores_postura_ruim = 0;
+//-----------------------------------------
+$condutores_contex_otimo = 0;
+$condutores_contex_bom = 0;
+$condutores_contex_regular = 0;
+$condutores_contex_ruim = 0;
+//-----------------------------------------
+$condutores_valores_otimo = 0;
+$condutores_valores_bom = 0;
+$condutores_valores_regular = 0;
+$condutores_valores_ruim = 0;
+
+//-----------------------------------------
+$instalacoes_conforto_otimo = 0;
+$instalacoes_conforto_bom = 0;
+$instalacoes_conforto_regular = 0;
+$instalacoes_conforto_ruim = 0;
+//-----------------------------------------
+$instalacoes_sinalizacao_otimo = 0;
+$instalacoes_sinalizacao_bom = 0;
+$instalacoes_sinalizacao_regular = 0;
+$instalacoes_sinalizacao_ruim = 0;
+//-----------------------------------------
+$instalacoes_limpeza_otimo = 0;
+$instalacoes_limpeza_bom = 0;
+$instalacoes_limpeza_regular = 0;
+$instalacoes_limpeza_ruim = 0;
+//-----------------------------------------
+$instalacoes_conservacao_otimo = 0;
+$instalacoes_conservacao_bom = 0;
+$instalacoes_conservacao_regular = 0;
+$instalacoes_conservacao_ruim = 0;
+
 
 foreach ( $status as $fi ) {
  
@@ -206,7 +248,111 @@ foreach ( $status as $fi ) {
       if($fi->bilheteria_cordialidade ==="ruim"){
         $bilheteria_cordialidade_ruim ++;
       }
+      //-----------------------------------------
+  if($fi->condutores_cordialidade === "otimo"){
+    $condutores_cordialidade_otimo ++;
+  }
+  if($fi->condutores_cordialidade ==="bom"){
+    $condutores_cordialidade_bom ++;
+  }
+  if($fi->condutores_cordialidade ==="regular"){
+    $condutores_cordialidade_regular ++;
+  }
+  if($fi->condutores_cordialidade ==="ruim"){
+    $condutores_cordialidade_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->condutores_postura === "otimo"){
+    $condutores_postura_otimo ++;
+  }
+  if($fi->condutores_postura ==="bom"){
+    $condutores_postura_bom ++;
+  }
+  if($fi->condutores_postura ==="regular"){
+    $condutores_postura_regular ++;
+  }
+  if($fi->condutores_postura ==="ruim"){
+    $condutores_postura_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->condutores_contex === "otimo"){
+    $condutores_contex_otimo ++;
+  }
+  if($fi->condutores_contex ==="bom"){
+    $condutores_contex_bom ++;
+  }
+  if($fi->condutores_contex ==="regular"){
+    $condutores_contex_regular ++;
+  }
+  if($fi->condutores_contex ==="ruim"){
+    $condutores_contex_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->condutores_valores === "otimo"){
+    $condutores_valores_otimo ++;
+  }
+  if($fi->condutores_valores ==="bom"){
+    $condutores_valores_bom ++;
+  }
+  if($fi->condutores_valores ==="regular"){
+    $condutores_valores_regular ++;
+  }
+  if($fi->condutores_valores ==="ruim"){
+    $condutores_valores_ruim ++;
+  }
 
+  //-----------------------------------------
+  if($fi->instalacoes_conforto === "otimo"){
+    $instalacoes_conforto_otimo ++;
+  }
+  if($fi->instalacoes_conforto ==="bom"){
+    $instalacoes_conforto_bom ++;
+  }
+  if($fi->instalacoes_conforto ==="regular"){
+    $instalacoes_conforto_regular ++;
+  }
+  if($fi->instalacoes_conforto ==="ruim"){
+    $instalacoes_conforto_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->instalacoes_sinalizacao === "otimo"){
+    $instalacoes_sinalizacao_otimo ++;
+  }
+  if($fi->instalacoes_sinalizacao ==="bom"){
+    $instalacoes_sinalizacao_bom ++;
+  }
+  if($fi->instalacoes_sinalizacao ==="regular"){
+    $instalacoes_sinalizacao_regular ++;
+  }
+  if($fi->instalacoes_sinalizacao ==="ruim"){
+    $instalacoes_sinalizacao_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->instalacoes_limpeza === "otimo"){
+    $instalacoes_limpeza_otimo ++;
+  }
+  if($fi->instalacoes_limpeza ==="bom"){
+    $instalacoes_limpeza_bom ++;
+  }
+  if($fi->instalacoes_limpeza ==="regular"){
+    $instalacoes_limpeza_regular ++;
+  }
+  if($fi->instalacoes_limpeza ==="ruim"){
+    $instalacoes_limpeza_ruim ++;
+  }
+  //-----------------------------------------
+  if($fi->instalacoes_conservacao === "otimo"){
+    $instalacoes_conservacao_otimo ++;
+  }
+  if($fi->instalacoes_conservacao ==="bom"){
+    $instalacoes_conservacao_bom ++;
+  }
+  if($fi->instalacoes_conservacao ==="regular"){
+    $instalacoes_conservacao_regular ++;
+  }
+  if($fi->instalacoes_conservacao ==="ruim"){
+    $instalacoes_conservacao_ruim ++;
+  }
     
 }
 ?>
@@ -373,8 +519,120 @@ foreach ( $status as $fi ) {
         };
         var chart = new google.visualization.PieChart(document.getElementById('bilheteria_cordialidade'));
         chart.draw(data, options);
-      }
+  //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $condutores_cordialidade_otimo ?> ],
+          ['Bom',      <?php echo $condutores_cordialidade_bom ?>],
+          ['Regular',  <?php echo $condutores_cordialidade_regular ?>],
+          ['Ruim', <?php echo $condutores_cordialidade_ruim ?>],
+        ]);
+        var options = {
+          title: 'condutores - cordialidade'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('condutores_cordialidade'));
+        chart.draw(data, options);
+         //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $condutores_postura_otimo ?> ],
+          ['Bom',      <?php echo $condutores_postura_bom ?>],
+          ['Regular',  <?php echo $condutores_postura_regular ?>],
+          ['Ruim', <?php echo $condutores_postura_ruim ?>],
+        ]);
+        var options = {
+          title: 'condutores - postura'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('condutores_postura'));
+        chart.draw(data, options);
+         //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $condutores_contex_otimo ?> ],
+          ['Bom',      <?php echo $condutores_contex_bom ?>],
+          ['Regular',  <?php echo $condutores_contex_regular ?>],
+          ['Ruim', <?php echo $condutores_contex_ruim ?>],
+        ]);
+        var options = {
+          title: 'condutores - contex'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('condutores_contex'));
+        chart.draw(data, options);
+         //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $condutores_valores_otimo ?> ],
+          ['Bom',      <?php echo $condutores_valores_bom ?>],
+          ['Regular',  <?php echo $condutores_valores_regular ?>],
+          ['Ruim', <?php echo $condutores_valores_ruim ?>],
+        ]);
+        var options = {
+          title: 'condutores - valores'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('condutores_valores'));
+        chart.draw(data, options);
+       //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $instalacoes_conforto_otimo ?> ],
+          ['Bom',      <?php echo $instalacoes_conforto_bom ?>],
+          ['Regular',  <?php echo $instalacoes_conforto_regular ?>],
+          ['Ruim', <?php echo $instalacoes_conforto_ruim ?>],
+        ]);
+        var options = {
+          title: 'instalacoes - conforto'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('instalacoes_conforto'));
+        chart.draw(data, options);
+       //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $instalacoes_sinalizacao_otimo ?> ],
+          ['Bom',      <?php echo $instalacoes_sinalizacao_bom ?>],
+          ['Regular',  <?php echo $instalacoes_sinalizacao_regular ?>],
+          ['Ruim', <?php echo $instalacoes_sinalizacao_ruim ?>],
+        ]);
+        var options = {
+          title: 'instalacoes - sinalizacao'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('instalacoes_sinalizacao'));
+        chart.draw(data, options);
+       //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $instalacoes_limpeza_otimo ?> ],
+          ['Bom',      <?php echo $instalacoes_limpeza_bom ?>],
+          ['Regular',  <?php echo $instalacoes_limpeza_regular ?>],
+          ['Ruim', <?php echo $instalacoes_limpeza_ruim ?>],
+        ]);
+        var options = {
+          title: 'instalacoes - limpeza'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('instalacoes_limpeza'));
+        chart.draw(data, options);
+       //----------------------------------------- 
+       
+ var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Ótimo',   <?php echo $instalacoes_conservacao_otimo ?> ],
+          ['Bom',      <?php echo $instalacoes_conservacao_bom ?>],
+          ['Regular',  <?php echo $instalacoes_conservacao_regular ?>],
+          ['Ruim', <?php echo $instalacoes_conservacao_ruim ?>],
+        ]);
+        var options = {
+          title: 'instalacoes - conservacao'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('instalacoes_conservacao'));
+        chart.draw(data, options);
       
+      }
     </script>
     
   </head>
@@ -391,5 +649,14 @@ foreach ( $status as $fi ) {
     <div id="bilheteria_atendimento" style="width: 300px; height: 200px;"></div>
     <div id="bilheteria_eficiencia" style="width: 300px; height: 200px;"></div>
     <div id="bilheteria_cordialidade" style="width: 300px; height: 200px;"></div>
+    <div id="condutores_cordialidade" style="width: 300px; height: 200px;"></div>
+    <div id="condutores_postura" style="width: 300px; height: 200px;"></div>
+    <div id="condutores_contex" style="width: 300px; height: 200px;"></div>
+    <div id="condutores_valores" style="width: 300px; height: 200px;"></div>
+
+    <div id="instalacoes_conforto" style="width: 300px; height: 200px;"></div>
+    <div id="instalacoes_sinalizacao" style="width: 300px; height: 200px;"></div>
+    <div id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
+    <div id="instalacoes_conservacao" style="width: 300px; height: 200px;"></div>
   </body>
 </html>
