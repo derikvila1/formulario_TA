@@ -18,6 +18,7 @@ public function formulario()
     return view("publish.panel.formulario");
 }
 
+
 public function formularioSave(Request $request)
 {
 
@@ -62,5 +63,12 @@ public function formularioSave(Request $request)
             $msg_erro = "Erro ao enviar formulário.";
             return view("publish.panel.formulario", compact('msg_erro'));
         }
+    }
+
+    public function new()
+    {
+
+        $status =  DB::table('formulario')->get();
+        return view("publish.panel.new", compact('status'));
     }
 }

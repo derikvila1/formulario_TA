@@ -18,19 +18,12 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return redirect('/login');
-});
-
-Route::get('/dashboard', [SSOController::class, 'index']);
-
-
 // EDITAIS
 
 Route::get('/',                         [EditaisPublicController::class, 'formulario']);
 Route::post('/',                         [EditaisPublicController::class, 'formularioSave']);
-Route::get('/new',         [EditaisAuthController::class, 'new']);
-Route::post('/new',        [EditaisAuthController::class, 'newSave']);
+Route::get('/new',         [EditaisPublicController::class, 'new']);
+Route::post('/new',        [EditaisPublicController::class, 'newSave']);
 
 
 //FORMULARIO TA
