@@ -261,7 +261,7 @@
         </section>
         <!--Titulo 1-->
         <section id="titulos">
-            <h2 style="margin-bottom:2rem;" class="Idioma-titulo titulo-BR color-titulos">Gostaríamos de obter seu feedback em relação à experiência de conhecer nosso maior patrimônio histórico e cultural. Vamos lá?</h2>
+            <h2 style="margin-bottom:2rem;" class="Idioma-titulo titulo-BR color-titulos">Gostaríamos de obter seu grau de satisfação em relação à experiência de conhecer nosso maior patrimônio histórico e cultural. Vamos lá?</h2>
         </section>
         <!--Form-->
       
@@ -744,7 +744,7 @@
             </section>
             <!--Area de Criticas e Confirmação-->
             <section class="criticas">
-                <h4 class="titulo-BR color-titulos criticas-titulo">Criticas,Elogios ou Sugestões:</h4>
+                <h4 class="titulo-BR color-titulos criticas-titulo">Críticas, Elogios ou Sugestões:</h4>
                 <textarea name="criticas_elogios" id="" cols="100" rows="10"></textarea>
                 <input class="button-confirmar" type="submit" value="Confirmar Avaliação">
             </section>
