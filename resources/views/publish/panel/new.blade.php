@@ -634,29 +634,69 @@ foreach ( $status as $fi ) {
       
       }
     </script>
-    
+    <style>
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 20px;
+  }
+  .column:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+    </style>
   </head>
   <body>
+<div class="row">
+  <div class="column" id="cafe_atendimento" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="cafe_variedade" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="cafe_cordialidade" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="cafe_valores" style="width: 300px; height: 200px;"></div>
+</div>
 
-    <div id="cafe_atendimento" style="width: 300px; height: 200px;"></div>
-    <div id="cafe_variedade" style="width: 300px; height: 200px;"></div>
-    <div id="cafe_cordialidade" style="width: 300px; height: 200px;"></div>
-    <div id="cafe_valores" style="width: 300px; height: 200px;"></div>
-    <div id="loja_atendimento" style="width: 300px; height: 200px;"></div>
-    <div id="loja_variedade" style="width: 300px; height: 200px;"></div>
-    <div id="loja_cordialidade" style="width: 300px; height: 200px;"></div>
-    <div id="loja_valores" style="width: 300px; height: 200px;"></div>
-    <div id="bilheteria_atendimento" style="width: 300px; height: 200px;"></div>
-    <div id="bilheteria_eficiencia" style="width: 300px; height: 200px;"></div>
-    <div id="bilheteria_cordialidade" style="width: 300px; height: 200px;"></div>
-    <div id="condutores_cordialidade" style="width: 300px; height: 200px;"></div>
-    <div id="condutores_postura" style="width: 300px; height: 200px;"></div>
-    <div id="condutores_contex" style="width: 300px; height: 200px;"></div>
-    <div id="condutores_valores" style="width: 300px; height: 200px;"></div>
+<div class="row">
 
-    <div id="instalacoes_conforto" style="width: 300px; height: 200px;"></div>
-    <div id="instalacoes_sinalizacao" style="width: 300px; height: 200px;"></div>
-    <div id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
-    <div id="instalacoes_conservacao" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="loja_atendimento" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="loja_variedade" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="loja_cordialidade" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="loja_valores" style="width: 300px; height: 200px;"></div>
+</div>
+
+<div class="row">
+  <div class="column" id="bilheteria_atendimento" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="bilheteria_eficiencia" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="bilheteria_cordialidade" style="width: 300px; height: 200px;"></div>
+
+</div>
+
+
+<div class="row">
+
+  <div class="column" id="condutores_cordialidade" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="condutores_postura" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="condutores_contex" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="condutores_valores" style="width: 300px; height: 200px;"></div>
+</div>
+
+<div class="row">
+
+  <div class="column" id="instalacoes_conforto" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="instalacoes_sinalizacao" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
+  <div class="column" id="instalacoes_conservacao" style="width: 300px; height: 200px;"></div>
+</div>
+
   </body>
 </html>
