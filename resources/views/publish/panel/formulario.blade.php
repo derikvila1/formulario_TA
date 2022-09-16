@@ -5,71 +5,260 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
         main {
-            margin: 0 10%;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 10px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: green;
+            font-family: 'Poppins', sans-serif;
         }
-        
+
+
+        .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-family: Cambria, Arial;
+    background-color: rgb(172, 172, 0);
+    border-radius: 20px;
+    border: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.card{
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card2{
+    width: 500px;
+    height: 730px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.card3{
+    width: 500px;
+    height: 3160px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.card4{
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+
+
+
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.teatro{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.text-main{
+    text-align: center;
+    color: rgb(0, 122, 0);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-main2{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 34, 34);
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.desc2 {
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.btn{
+    background-color:rgb(39, 143, 39);
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(210, 210, 25);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.btn2{
+    background-color:rgb(39, 143, 39);
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(210, 210, 25);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+        .main__cta{
+       width: 100%;
+       margin: 60px 0;
+      text-align: center;
+}  
+
+.main__cta h2{
+    color: rgb(45, 135, 45);
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: black;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button{
+    background-color: rgb(210, 210, 25);
+    display: inline-block;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+}
+
         .color-titulos {
             font-size: 1.5rem!important;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2%;
+            font-size:40px
         }
         
-        .p-padrao {
-            font-family: 'Roboto', sans-serif;
-            font-weight: normal;
-            margin: 0;
-        }
-        
+    
         #img-header {
             display: flex;
             justify-content: center;
+            background-color: rgb(184, 184, 0);
+            border-radius: 6px;
         }
-        /*selection de idiomas*/
-        
-        #idiomas {
-            display: flex;
-            margin-top: 1rem;
-            flex-direction: row;
-            align-items: center;
-            justify-content: end;
-        }
-        
-        .idiomas {
-            display: flex;
-        }
-        
-        .idiomas img {
-            width: 24px;
-            margin: 0 2px;
-            cursor: pointer;
-        }
+
         /*titulos*/
-        
         .titulo-BR {
-            font-size: 1.2rem;
+            font-size: 40px;
             text-align: center;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: normal;
             margin-bottom: 0.4rem;
+            border box: 10px;
         }
         
         @media (max-width:768px) {
             .titulo-BR {
-                font-size: 1.4rem;
+                font-size: 2rem;
                 text-align: center;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 font-weight: normal;
             }
             main {
                 margin: 0;
                 border-style: none;
-                border-width: 1px;
-                border-radius: 10px;
+                border-width: 40px;
+                border-radius: 40px;
+                color: green;
+                background-color: green;
             }
         }
         
@@ -77,86 +266,58 @@
             .titulo-BR {
                 font-size: 1.2rem!important;
                 margin-top: 2rem;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 font-weight: normal;
                 margin-bottom: 0.4rem;
             }
         }
-        /*formulario*/
-        
-        #form {
-            margin: 1rem 6.5%;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 5px;
-            padding: 1rem;
-        }
-        
-        label {
-            margin: 1rem 1rem !important;
-        }
-        
-        input {
-            border-radius: 4px;
-            padding: 7px;
-            font-size: 15px;
-        }
-        
-        .nome-input {
-            width: 20rem;
-        }
-        
-        .form-titulo {
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-        
-        .nomecontatoemail {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: row;
-        }
-        
-        .paiscidade {
-            margin-top: 1rem;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: row;
-        }
-        
-        @media (max-width:426px) {
-            input {
-                width: 100% !important;
-                margin: 0rem 1rem;
-            }
-            .nomecontatoemail {
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-            }
-            .paiscidade {
-                display: flex;
-                margin: 0;
-                flex-wrap: wrap;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-            }
-            #form {
-                margin: 1rem 0;
-                border-style: solid;
-                border-width: 1px;
-                border-radius: 5px;
-            }
-            .fix-div {
-                width: 89%;
-                margin-top: 1rem;
-            }
-        }
+
+
+form {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+   form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -16px;
+    padding: 20px;
+   }
+
+
+form input, form textarea {   8888888888888888888888888888888888888888888888888
+    outline: unset;
+    padding: 10px;
+    min-width: 50px;
+    border: 10px ;
+    border-radius: 10px;
+    border: 2px solid  rgb(0, 79, 0);
+}
+
+form input:focus {
+    background-color: rgb(206, 206, 206);
+}
+
+form textarea:focus {
+    background-color: rgb(206, 206, 206);
+}
+
+form input[type=submit] {
+    background-color: rgb(206, 206, 206);
+    color: white;
+    cursor: pointer;
+}
+
+form label {
+    margin-left: 10px;
+}
+
+
+
+
+
+
         /*seção de avalicao por checkbox*/
         
         .radios {
@@ -168,18 +329,23 @@
             padding: 1rem;
             border-radius: 5px;
             border-style: solid;
-            border-width: 1px;
+            border-width: 20px;
             margin: 0 20.0%;
         }
         
         .topicos-opcoes {
             display: flex;
             justify-content: space-around;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            margin-bottom: -16px;
+            padding: 20px;
+            font-size: 20px;
         }
         
         .topico-opcoes-label {
             margin: 0 !important;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         
         @media (max-width:426px) {
@@ -192,16 +358,19 @@
             }
             .radios {
                 padding: 0;
+                color: rgb(202, 202, 17);
             }
             .topicos-opcoes-mobile-fix {
                 display: flex;
                 align-items: center;
                 margin: 0 1rem;
                 flex-direction: column;
+                color: rgb(202, 202, 17);
             }
             .radio-titulo {
                 font-size: 25px;
                 text-align: center;
+                color: rgb(202, 202, 17);
 
             }
             /*area de criticas*/
@@ -210,16 +379,20 @@
                 font-size: 25px;
                 text-align: center!important;
                 margin-bottom: 2rem;
+                color: rgb(202, 202, 17);
             }
         .criticas {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 20px;
         }
-        
+
         .criticas input {
             width: 50%;
             height: 4rem;
+            width: 500px;
+            padding: 20px;
         }
         
         .button-confirmar {
@@ -230,10 +403,12 @@
             margin-top: 1rem;
             font-size: 1.3rem;
             transition: 0.5s;
+            padding: 20px;
         }
         
         .button-confirmar:hover {
             background-color: #14FC6D;
+            border-radius: 6px;
         }
         
         @media (max-width:426px) {
@@ -241,90 +416,190 @@
                 width: 90%;
             }
         }
+
+    .text-maincafé{
+        text-align: center;
+    color: rgb(0, 122, 0);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .desccafé{
+        font-family: 'Poppins', sans-serif;
+    color: YELLOW;
+    font-weight: 300;
+    text-align: center;
+    font-size: 19px;
+    }
+
+.btncafé{
+    background-color:  rgb(0, 125, 0);
+    display: inline-block;
+    padding: 2px 15px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(0, 125, 0);
+    outline: unset;
+    min-width: 50px;
+}
+
+
+
+     .mano{
+        border: 10px green;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </style>
 </head>
 
 <body>
     <main>
-        <!--Img Teatro-->
+
+       
+
+
+        <div class="container">
+        <div class="card">
         <section id="img-header">
             <img src="/img/teatro img.png" alt="">
         </section>
-        <!--Idiomas div-->
-        <section id="idiomas">
-            <p class="p-padrao idioma-text">Idioma :</p>
-            <section class="idiomas">
-                <img class="portugues" src="/img/bandeirabrasil.png" alt="">
-                <img class="ingles" src="/img/bandeira-estados-unidos.webp" alt="" srcset="">
-                <img class="espanhol" src="/img/espanhabandeiraxx.webp" alt="" srcset="">
-            </section>
-        </section>
-        <!--Titulo 1-->
-        <section id="titulos">
-            <h2 style="margin-bottom:2rem;" class="Idioma-titulo titulo-BR color-titulos">Gostaríamos de obter seu feedback em relação à experiência de conhecer nosso maior patrimônio histórico e cultural. Vamos lá?</h2>
-        </section>
-        <!--Form-->
-      
-        <form class="ui form" method="POST" accept="/formularioSave" enctype="multipart/form-data">
-        @csrf
+            <div class="texto">
+                <h2 class="text-main">Gostaríamos de obter seu feedback em relação à experiência de conhecer nosso maior patrimônio histórico e cultural.</h2>
+                <p class="desc"> Antes, precisamos saber de algumas informações.</p>
+            </div>
+            <div class="button">
+                <button type="button" class="btn">Vamos lá?</button>
+            </div>
+        </div>
+    </div>
 
 
 
-            <h2 class="p-padrao form-titulo color-titulos">Formulário</h2>
-            <!--Form input Nome Contato Email-->
-            <section class="nomecontatoemail">
-                <section class="fix-div">
-                    <label for="nome" class=" nome-form p-padrao nome-input">Nome:</label>
-                    <input type="text" id="nome" class="nome-input"  name="nome" required>
-                </section>
-                <section class="fix-div">
-                    <label for="tel" class=" contato-form p-padrao">Contato:</label>
-                    <input type="tel" id="tel"  name="tel" required>
-                </section>
-                <section class="fix-div">
-                    <label for="email" class=" email-form p-padrao">E-mail:</label>
-                    <input type="email" id="email"  name="email" required>
-                </section>
-            </section>
-            <!--Form Pais Cidade-->
-            <section class="paiscidade">
-                <section class="fix-div">
-                    <label for="pais" class=" pais-form p-padrao">Pais:</label>
-                    <input type="text" id="pais" name="pais" required>
-                </section>
-                <section class="fix-div">
-                    <label for="cidade" class=" cidade-form p-padrao">Cidade:</label>
-                    <input type="text" id="cidade" name="cidade" required>
-                </section>
-            </section>
-            <!--Input de escohas-->
-            <section class="radios">
-                <h2 class="p-padrao radio-titulo color-titulos">Com relação ao Teatro Amazonas, avalie os seguintes tópicos</h2>
-                <section class="topicos">
+
+    <div class="container">
+        <div class="card2">
+            <div class="texto">
+                <header>
+                <h2 class="text-main2">Preencha o nosso formulário</h2>
+               </header>
+                <p class="desc2">Nos informe seus dados.</p>
+            </div>
+            <div class="button">
+                <button type="button" class="btn2">FORMULÁRIO</button>
+            </div>
+      <form>
+            <div>
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="nome" required/>
+            </div>
+            <div>
+                <label>Contato</label>
+                <input type="text" placeholder="Digite seu contato" name="contato" required/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" placeholder="Digite seu email" name="email" required/>
+            </div>
+            <div>
+                <label>Cidade</label>
+                <input type="text" placeholder="Digite sua cidade" name="cidade" required/>
+            </div>
+            <div>
+                <label>País</label>
+                <input type="text" placeholder="Digite seu país" name="país" required/>
+            </div>
+        </form>
+        </div>
+    </div>
+
+
+
+    
+    <div class="container">
+        <div class="card3">
+            <div class="texto">
+                <header>
+                <h2 class="text-main2">Nos avalie</h2>
+               </header>
+                <p class="desc2">Nos informe a sua avaliação sobre nossos seguintes departamentos</p>
+            </div>
+            <div class="button">
+                <button type="button" class="btn2">AVALIAÇÃO</button>
+            </div>
+
+
+
+
                     <!--Topico Cafe-->
-                    <section id="cafe">
-                        <h3 style="font-size:30px;" class=" cafe-idioma p-padrao form-titulo">Café</h3>
-                        <p style="font-size:20px;" class=" atendimento-idioma p-padrao atendimento form-titulo">Atendimento</p>
-                        <section class="topicos-opcoes">
+                    <div class="texto">
+                        <h3 class="text-maincafé">Café</h3>
+                    </div>
+                    <div class="button">
+                <button type="button" class="btncafé">ATENDIMENTO</button>
+                   </div>
+             <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-otimo" name="cafe_atendimento" value="otimo" required>
                                 <label class="otimo topico-opcoes-label" for="atendimento-otimo">Ótimo</label><br>
                             </section>
+
+
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bom" name="cafe_atendimento" value="bom" required>
                                 <label for="atendimento-bom" class="Bom topico-opcoes-label">Bom</label><br>
                             </section>
+
+
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-regular" name="cafe_atendimento" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="atendimento-regular">Regular</label>
                             </section>
+
+
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-ruim" name="cafe_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao variedade form-titulo">Variedade de Produtos
-                        </p>
+
+
+
+
+
+                        
+
+
+
+
+                
+                    <div class="button">
+                <button type="button" class="btncafé">VARIEDADE</button>
+                   </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-otimo" name="cafe_variedade" value="otimo" required>
@@ -343,7 +618,18 @@
                                 <label class="topico-opcoes-label ruim" for="variedade-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
+
+
+
+
+
+
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">CORDIALIDADE</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-otimo" name="cafe_cordialidade" value="otimo" required>
@@ -362,7 +648,15 @@
                                 <label class="topico-opcoes-label ruim" for="cordialidade-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao valores form-titulo">Valores</p>
+
+
+
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">VALORES</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-otimo" name="cafe_valores" value="otimo" required>
@@ -383,10 +677,28 @@
                         </section>
                     </section>
                     <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <!--Topico Loja-->
+                    <div class="texto">
+                        <h4 class="text-maincafé">Loja</h4>
+                    </div>
+                    <div class="button">
+                <button type="button" class="btncafé">ATENDIMENTO</button>
+                   </div>
                     <section id="loja">
-                        <h3 style="font-size:30px;" class="p-padrao loja-idioma form-titulo">Loja</h3>
-                        <p style="font-size:20px;" class="p-padrao atendimento form-titulo">Atendimento</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-loja-otimo" name="loja_atendimento" value="otimo" required>
@@ -407,10 +719,15 @@
                                 <input type="radio" id="atendimento-loja-ruim" name="loja_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-loja-ruim">Ruim</label>
                             </section>
-
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao variedade form-titulo">Variedade de Produtos
-                        </p>
+
+
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">VARIEDADE</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-loja-otimo" name="loja_variedade" value="otimo" required>
@@ -432,7 +749,12 @@
                                 <label class="topico-opcoes-label ruim" for="variedade-loja-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">CORDIALIDADE</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-loja-otimo" name="loja_cordialidade" value="otimo" required>
@@ -453,9 +775,14 @@
                                 <input type="radio" id="cordialidade-loja-ruim" name="loja_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-loja-ruim">Ruim</label>
                             </section>
-
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao valores form-titulo">Valores</p>
+
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">VALORES</button>
+                       </div>
                         <section class="topicos-opcoes" style="margin-bottom: 4rem;">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-loja-otimo" name="loja_valores" value="otimo" required>
@@ -476,14 +803,27 @@
                                 <input type="radio" id="Valores-loja-ruim" name="loja_valores" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="Valores-loja-ruim">Ruim</label>
                             </section>
-
                         </section>
                     </section>
                     <hr>
+
+
+
+
+
+
+
+
+
+
                     <!--Topico Bilheteria-->
+                    <div class="texto">
+                        <h3 class="text-maincafé">Bilheteria</h3>
+                    </div>
+                    <div class="button">
+                <button type="button" class="btncafé">ATENDIMENTO</button>
+                   </div>
                     <section id="bilheteria">
-                        <h3 style="font-size:30px;" class="p-padrao bilheteria form-titulo">Bilheteria</h3>
-                        <p style="font-size:20px;" class="p-padrao form-titulo atendimento">Atendimento</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-otimo" name="bilheteria_atendimento" value="otimo" required>
@@ -503,10 +843,14 @@
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-ruim" name="bilheteria_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-bilheteria-ruim">Ruim</label>
-                            </section>
-
+                          </section>
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao eficiencia form-titulo">Eficiência</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">EFICIÊNCIA</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="eficiencia-bilheteria-otimo" name="bilheteria_eficiencia" value="otimo" required>
@@ -528,7 +872,12 @@
                                 <label class="topico-opcoes-label ruim" for="eficiencia-bilheteria-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">CORDIALIDADE</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bilheteria-otimo" name="bilheteria_cordialidade" value="otimo" required>
@@ -552,10 +901,20 @@
                         </section>
                     </section>
                     <hr>
+
+
+
+
+
+
+
                     <!--Topico Condutores-->
-                    <section id="Condutores/Visitação">
-                        <h3 style="font-size:30px;" class="p-padrao condutores form-titulo">Condutores/Visitação</h3>
-                        <p style="font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
+                    <div class="texto">
+                        <h3 class="text-maincafé">Condutores/Visitação</h3>
+                    </div>
+                    <div class="button">
+                <button type="button" class="btncafé">CORDIALIDADE</button>
+                   </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-visitacao-otimo" name="condutores_cordialidade" value="otimo" required>
@@ -576,9 +935,13 @@
                                 <input type="radio" id="cordialidade-visitacao" name="condutores_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-visitacao">Ruim</label>
                             </section>
-
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao postura form-titulo">Postura</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">POSTURA</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="postura-visitacao-otimo" name="condutores_postura" value="otimo" required>
@@ -600,8 +963,12 @@
                                 <label class="topico-opcoes-label ruim" for="postura-visitacao-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao contexto form-titulo">Contextualização Histórica
-                        </p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">CONTEXTUALIZAÇÃO HISTÓRICA</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="contextualizacao-historica-otimo" name="condutores_contex" value="otimo" required>
@@ -623,7 +990,12 @@
                                 <label class="topico-opcoes-label ruim" for="contextualizacao-historica-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao valores form-titulo">Valores</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">VALORES</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="valores-visitacao-otimo" name="condutores_valores" value="otimo" required>
@@ -647,10 +1019,17 @@
                         </section>
                     </section>
                     <hr>
+
+
+
                     <!--Instalações-->
+                    <div class="texto">
+                        <h3 class="text-maincafé">Instalações</h3>
+                    </div>
+                    <div class="button">
+                <button type="button" class="btncafé">CONFORTO</button>
+                   </div>
                     <section id="Instalacoes">
-                        <h3 style="font-size:30px;" class="p-padrao instalacoes form-titulo">Instalações</h3>
-                        <p style="font-size:20px;" class="p-padrao conforto form-titulo">Conforto</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conforto-otimo" name="instalacoes_conforto" value="otimo" required>
@@ -671,9 +1050,13 @@
                                 <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="-ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-conforto-ruim">Ruim</label>
                             </section>
-
                         </section>
-                        <p style="margin-top:4rem ;font-size:20px;" class="p-padrao sinalizacao form-titulo">Sinalização</p>
+
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">SINALIZAÇÃO</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-sinalizacao-otimo" name="instalacoes_sinalizacao" value="otimo" required>
@@ -695,7 +1078,11 @@
                                 <label class="topico-opcoes-label ruim" for="instalacoes-sinalizacao-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao limpeza form-titulo">Limpeza</p>
+
+
+                        <div class="button">
+                <button type="button" class="btncafé">LIMPEZA</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-limpeza-otimo" name="instalacoes_limpeza" value="otimo" required>
@@ -717,7 +1104,13 @@
                                 <label class="topico-opcoes-label ruim" for="instalacoes-limpeza-ruim">Ruim</label>
                             </section>
                         </section>
-                        <p style="margin-top:4rem;font-size:20px;" class="p-padrao conservacao form-titulo">Conservação</p>
+
+                        
+                        
+
+                        <div class="button">
+                <button type="button" class="btncafé">CONSERVAÇÃO</button>
+                       </div>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conservacao-otimo" name="instalacoes_conservacao" value="otimo" required>
@@ -742,16 +1135,48 @@
                     </section>
                 </section>
             </section>
+
+
+
+
+
             <!--Area de Criticas e Confirmação-->
-            <section class="criticas">
-                <h4 class="titulo-BR color-titulos criticas-titulo">Criticas,Elogios ou Sugestões:</h4>
-                <textarea name="criticas_elogios" id="" cols="100" rows="10"></textarea>
-                <input class="button-confirmar" type="submit" value="Confirmar Avaliação">
-            </section>
-        </form>
-        </section>
-    </main>
-    <<script src="/js/script.js"></script>
+            <div class="container">
+                <div class="card4">
+                <div class="texto">
+            <header>
+                <h4 class="text-main2">Críticas, elogios ou sugestões:</h4>
+            </header>
+            <p class="desc2">Deixe aqui sua crítica, elogio ou sugestão</p>
+            </div>
+
+
+
+
+
+
+
+            <section class="mano">
+                <form>
+                    <div>
+                <textarea rows="10" name="msg" required></textarea>
+                   </div>
+               </form>
+          </section>
+
+
+
+
+          <div class="button">
+                <button type="button" class="btn2">CONFIRMAR</button>
+            </div>
+  
+
+
+
+
+
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
