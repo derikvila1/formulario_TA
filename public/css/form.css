@@ -7,6 +7,7 @@
 }
 
 body{
+    accent-color: red;
     /* background: linear-gradient(45deg, #1e3c72, #468aca); */
     background: linear-gradient(-45deg,  #008d8c ,#b37d0e ,#bc9648);
     background-size: 400% 400%;
@@ -333,6 +334,33 @@ input {
    
 }
 
+@media (max-width:392px) {
+    .topicos {
+        padding: 0;
+        border-radius: 5px;
+        border-style: none;
+        border-width: 1px;
+        margin: 0;
+    }
+    .radios {
+        padding: 0;
+    }
+    .topicos-opcoes-mobile-fix {
+        display: flex;
+        align-items: center;
+        /* margin: 0 1rem; */
+        flex-direction: column;
+    }
+    .radio-titulo {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    
+   
+}
+
 @media (max-width:1800px) {
     .topicos {
         padding: 0;
@@ -403,3 +431,5 @@ height: 4rem;
         width: 90%;
     }
 }
+
+/* ================================================================================ */

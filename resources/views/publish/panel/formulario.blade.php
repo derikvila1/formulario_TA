@@ -249,7 +249,9 @@
     <main>
         <!--Img Teatro-->
         <section id="img-header">
-            <img src="/img/teatro img.png" alt="">
+        <a href="https://teatroamazonas.com.br/">
+            <img src="/img/teatro img.png" a  alt="">
+        </a>
         </section>
         <!--Idiomas div-->
         <section id="idiomas">
@@ -308,7 +310,7 @@
                         <p style="font-size:20px;" class=" atendimento-idioma p-padrao atendimento form-titulo">Atendimento</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="atendimento-otimo" name="cafe_atendimento" value="otimo" required>
+                                <input type="radio" id="atendimento-otimo" name="cafe_atendimento" value="otimo" class="outline custom-radio " required>
                                 <label class="otimo topico-opcoes-label" for="atendimento-otimo">Ótimo</label><br>
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
@@ -555,7 +557,7 @@
                     <hr>
                     <!--Topico Condutores-->
                     <section id="Condutores/Visitação">
-                        <h3 style="font-size:20px; padding-top: 1rem; width:100%;" class="p-padrao condutores form-titulo">Condutores/Visitação</h3>
+                        <h3 style=" padding-top: 1rem;" class="p-padrao condutores form-titulo">Condutores/Visitação</h3>
                         <p style="font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
