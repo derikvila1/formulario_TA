@@ -155,6 +155,7 @@
             .fix-div {
                 width: 89%;
                 margin-top: 1rem;
+               
             }
         }
         /*seção de avalicao por checkbox*/
@@ -282,7 +283,7 @@
                     <input type="tel" id="tel"  name="tel" required>
                 </section>
                 <section class="fix-div">
-                    <label for="email" class=" email-form p-padrao">E-mail:</label>
+                    <label for="email" class="email-form p-padrao">E-mail:</label>
                     <input type="email" id="email"  name="email" required>
                 </section>
             </section>
@@ -514,7 +515,7 @@
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="eficiencia-bilheteria-bom" name="bilheteria_eficiencia" value="ebom" required>
+                                <input type="radio" id="eficiencia-bilheteria-bom" name="bilheteria_eficiencia" value="bom" required>
                                 <label for="eficiencia-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label><br>
                             </section>
 
@@ -668,7 +669,7 @@
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="-ruim" required>
+                                <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-conforto-ruim">Ruim</label>
                             </section>
 
