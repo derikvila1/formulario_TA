@@ -374,7 +374,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $cafe_atendimento_ruim ?>],
         ]);
         var options = {
-          title: 'CAFÉ - ATENDIMENTO'
+          title: 'ATENDIMENTO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('cafe_atendimento'));
         chart.draw(data, options);
@@ -388,7 +388,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $cafe_variedade_ruim ?>],
         ]);
         var options = {
-          title: 'CAFÉ - VARIEDADE'
+          title: 'VARIEDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('cafe_variedade'));
         chart.draw(data, options);
@@ -402,7 +402,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $cafe_cordialidade_ruim ?>],
         ]);
         var options = {
-          title: 'CAFÉ - cordialidade'
+          title: 'CORDIALIDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('cafe_cordialidade'));
         chart.draw(data, options);
@@ -416,7 +416,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $cafe_valores_ruim ?>],
         ]);
         var options = {
-          title: 'CAFÉ - valores'
+          title: 'VALORES'
         };
         var chart = new google.visualization.PieChart(document.getElementById('cafe_valores'));
         chart.draw(data, options);
@@ -430,7 +430,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $loja_atendimento_ruim ?>],
         ]);
         var options = {
-          title: 'LOJA - ATENDIMENTO'
+          title: 'ATENDIMENTO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('loja_atendimento'));
         chart.draw(data, options);
@@ -444,7 +444,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $loja_variedade_ruim ?>],
         ]);
         var options = {
-          title: 'LOJA - VARIEDADE'
+          title: 'VARIEDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('loja_variedade'));
         chart.draw(data, options);
@@ -458,7 +458,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $loja_cordialidade_ruim ?>],
         ]);
         var options = {
-          title: 'LOJA - cordialidade'
+          title: 'CORDIALIDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('loja_cordialidade'));
         chart.draw(data, options);
@@ -472,7 +472,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $loja_valores_ruim ?>],
         ]);
         var options = {
-          title: 'LOJA - valores'
+          title: 'VALORES'
         };
         var chart = new google.visualization.PieChart(document.getElementById('loja_valores'));
         chart.draw(data, options);
@@ -486,7 +486,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $bilheteria_atendimento_ruim ?>],
         ]);
         var options = {
-          title: 'BILHETERIA - ATENDIMENTO'
+          title: 'ATENDIMENTO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('bilheteria_atendimento'));
         chart.draw(data, options);
@@ -501,7 +501,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $bilheteria_eficiencia_ruim ?>],
         ]);
         var options = {
-          title: 'BILHETERIA - eficiencia'
+          title: 'EFICIÊNCIA'
         };
         var chart = new google.visualization.PieChart(document.getElementById('bilheteria_eficiencia'));
         chart.draw(data, options);
@@ -515,7 +515,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $bilheteria_cordialidade_ruim ?>],
         ]);
         var options = {
-          title: 'BILHETERIA - cordialidade'
+          title: 'CORDIALIDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('bilheteria_cordialidade'));
         chart.draw(data, options);
@@ -529,7 +529,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $condutores_cordialidade_ruim ?>],
         ]);
         var options = {
-          title: 'condutores - cordialidade'
+          title: 'CORDIALIDADE'
         };
         var chart = new google.visualization.PieChart(document.getElementById('condutores_cordialidade'));
         chart.draw(data, options);
@@ -543,7 +543,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $condutores_postura_ruim ?>],
         ]);
         var options = {
-          title: 'condutores - postura'
+          title: 'POSTURA'
         };
         var chart = new google.visualization.PieChart(document.getElementById('condutores_postura'));
         chart.draw(data, options);
@@ -557,7 +557,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $condutores_contex_ruim ?>],
         ]);
         var options = {
-          title: 'condutores - contex'
+          title: 'CONTEXTO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('condutores_contex'));
         chart.draw(data, options);
@@ -571,7 +571,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $condutores_valores_ruim ?>],
         ]);
         var options = {
-          title: 'condutores - valores'
+          title: 'VALORES'
         };
         var chart = new google.visualization.PieChart(document.getElementById('condutores_valores'));
         chart.draw(data, options);
@@ -585,7 +585,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $instalacoes_conforto_ruim ?>],
         ]);
         var options = {
-          title: 'instalacoes - conforto'
+          title: 'CONFORTO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('instalacoes_conforto'));
         chart.draw(data, options);
@@ -599,7 +599,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $instalacoes_sinalizacao_ruim ?>],
         ]);
         var options = {
-          title: 'instalacoes - sinalizacao'
+          title: 'SINALIZAÇÃO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('instalacoes_sinalizacao'));
         chart.draw(data, options);
@@ -613,7 +613,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $instalacoes_limpeza_ruim ?>],
         ]);
         var options = {
-          title: 'instalacoes - limpeza'
+          title: 'LIMPEZA'
         };
         var chart = new google.visualization.PieChart(document.getElementById('instalacoes_limpeza'));
         chart.draw(data, options);
@@ -627,7 +627,7 @@ foreach ( $status as $fi ) {
           ['Ruim', <?php echo $instalacoes_conservacao_ruim ?>],
         ]);
         var options = {
-          title: 'instalacoes - conservacao'
+          title: 'CONSERVAÇÃO'
         };
         var chart = new google.visualization.PieChart(document.getElementById('instalacoes_conservacao'));
         chart.draw(data, options);
@@ -639,8 +639,7 @@ foreach ( $status as $fi ) {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 20px;
+  width: 25%; 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   
@@ -655,11 +654,16 @@ foreach ( $status as $fi ) {
   }
   .column:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+.title{
+  float: center;
 }
     </style>
   </head>
   <body>
 <div class="row">
+  <h1 class = "title" >CAFÉ</h1>
   <div class="column" id="cafe_atendimento" style="width: 300px; height: 200px;"></div>
   <div class="column" id="cafe_variedade" style="width: 300px; height: 200px;"></div>
   <div class="column" id="cafe_cordialidade" style="width: 300px; height: 200px;"></div>
@@ -668,6 +672,7 @@ foreach ( $status as $fi ) {
 
 <div class="row">
 
+<h1 class = "title" >LOJA</h1>
   <div class="column" id="loja_atendimento" style="width: 300px; height: 200px;"></div>
   <div class="column" id="loja_variedade" style="width: 300px; height: 200px;"></div>
   <div class="column" id="loja_cordialidade" style="width: 300px; height: 200px;"></div>
@@ -675,6 +680,8 @@ foreach ( $status as $fi ) {
 </div>
 
 <div class="row">
+  
+<h1 class = "title" >BILHETERIA</h1>
   <div class="column" id="bilheteria_atendimento" style="width: 300px; height: 200px;"></div>
   <div class="column" id="bilheteria_eficiencia" style="width: 300px; height: 200px;"></div>
   <div class="column" id="bilheteria_cordialidade" style="width: 300px; height: 200px;"></div>
@@ -684,6 +691,7 @@ foreach ( $status as $fi ) {
 
 <div class="row">
 
+<h1 class = "title" >CONDUTORES</h1>
   <div class="column" id="condutores_cordialidade" style="width: 300px; height: 200px;"></div>
   <div class="column" id="condutores_postura" style="width: 300px; height: 200px;"></div>
   <div class="column" id="condutores_contex" style="width: 300px; height: 200px;"></div>
@@ -692,6 +700,7 @@ foreach ( $status as $fi ) {
 
 <div class="row">
 
+<h1 class = "title" >INSTALAÇÕES</h1>
   <div class="column" id="instalacoes_conforto" style="width: 300px; height: 200px;"></div>
   <div class="column" id="instalacoes_sinalizacao" style="width: 300px; height: 200px;"></div>
   <div class="column" id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
