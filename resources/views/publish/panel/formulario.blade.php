@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
         main {
             margin: 0 10%;
@@ -241,7 +242,7 @@
                 width: 90%;
             }
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -270,7 +271,7 @@
 
 
 
-            <h2 class="p-padrao form-titulo color-titulos">Formulário</h2>
+            <h2 class="p-padrao form-titulo color-titulos titulo-form">FORMULÁRIO</h2>
             <!--Form input Nome Contato Email-->
             <section class="nomecontatoemail">
                 <section class="fix-div">
@@ -385,7 +386,7 @@
                     <hr>
                     <!--Topico Loja-->
                     <section id="loja">
-                        <h3 style="font-size:30px;" class="p-padrao loja-idioma form-titulo">Loja</h3>
+                        <h3 style="font-size:30px; padding-top: 1rem;" class="p-padrao loja-idioma form-titulo">Loja</h3>
                         <p style="font-size:20px;" class="p-padrao atendimento form-titulo">Atendimento</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
@@ -482,7 +483,7 @@
                     <hr>
                     <!--Topico Bilheteria-->
                     <section id="bilheteria">
-                        <h3 style="font-size:30px;" class="p-padrao bilheteria form-titulo">Bilheteria</h3>
+                        <h3 style="font-size:30px; padding-top: 1rem;" class="p-padrao bilheteria form-titulo">Bilheteria</h3>
                         <p style="font-size:20px;" class="p-padrao form-titulo atendimento">Atendimento</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
@@ -554,7 +555,7 @@
                     <hr>
                     <!--Topico Condutores-->
                     <section id="Condutores/Visitação">
-                        <h3 style="font-size:30px;" class="p-padrao condutores form-titulo">Condutores/Visitação</h3>
+                        <h3 style="font-size:20px; padding-top: 1rem; width:100%;" class="p-padrao condutores form-titulo">Condutores/Visitação</h3>
                         <p style="font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
@@ -649,7 +650,7 @@
                     <hr>
                     <!--Instalações-->
                     <section id="Instalacoes">
-                        <h3 style="font-size:30px;" class="p-padrao instalacoes form-titulo">Instalações</h3>
+                        <h3 style="font-size:30px; padding-top: 1rem;" class="p-padrao instalacoes form-titulo">Instalações</h3>
                         <p style="font-size:20px;" class="p-padrao conforto form-titulo">Conforto</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
