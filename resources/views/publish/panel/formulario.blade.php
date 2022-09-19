@@ -257,8 +257,8 @@ header {
                 border-style: none;
                 border-width: 40px;
                 border-radius: 40px;
-                color: green;
-                background-color: green;
+ 
+   
             }
         }
         
@@ -358,19 +358,19 @@ form label {
             }
             .radios {
                 padding: 0;
-                color: rgb(202, 202, 17);
+
             }
             .topicos-opcoes-mobile-fix {
                 display: flex;
                 align-items: center;
                 margin: 0 1rem;
                 flex-direction: column;
-                color: rgb(202, 202, 17);
+
             }
             .radio-titulo {
                 font-size: 25px;
                 text-align: center;
-                color: rgb(202, 202, 17);
+    
 
             }
             /*area de criticas*/
@@ -379,7 +379,7 @@ form label {
                 font-size: 25px;
                 text-align: center!important;
                 margin-bottom: 2rem;
-                color: rgb(202, 202, 17);
+              
             }
         .criticas {
             display: flex;
@@ -396,7 +396,7 @@ form label {
         }
         
         .button-confirmar {
-            background-color: #1EE633;
+         
             color: white;
             border-style: none;
             box-shadow: 1px 1px 1px 1px;
@@ -407,7 +407,7 @@ form label {
         }
         
         .button-confirmar:hover {
-            background-color: #14FC6D;
+           
             border-radius: 6px;
         }
         
