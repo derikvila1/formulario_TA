@@ -517,7 +517,7 @@
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="eficiencia-bilheteria-bom" name="bilheteria_eficiencia" value="ebom" required>
+                                <input type="radio" id="eficiencia-bilheteria-bom" name="bilheteria_eficiencia" value="bom" required>
                                 <label for="eficiencia-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label><br>
                             </section>
 
@@ -671,7 +671,7 @@
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="-ruim" required>
+                                <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-conforto-ruim">Ruim</label>
                             </section>
 
