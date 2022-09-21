@@ -7,11 +7,11 @@
 }
 
 body{
-    accent-color: red;
+    accent-color: #0DFF92;
     /* background: linear-gradient(45deg, #1e3c72, #468aca); */
     background: linear-gradient(-45deg,  #008d8c ,#b37d0e ,#bc9648);
     background-size: 400% 400%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     margin: 0 20%;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@ main{
     margin-bottom: 0%;
     background: white;
     padding: 2rem;
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     flex-direction: column;
 }
@@ -293,7 +293,7 @@ input {
     background: whitesmoke;
     padding: 1rem;
     border-radius: 15px;
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 15px #008d8d42;
     border-width: 1px; 
     text-transform: uppercase;
     margin: 0 20%;
@@ -335,6 +335,12 @@ input {
 }
 
 @media (max-width:392px) {
+
+    body{
+        margin: 0 3%;
+    }
+
+
     .topicos {
         padding: 0;
         border-radius: 5px;
@@ -344,6 +350,7 @@ input {
     }
     .radios {
         padding: 0;
+        margin: 0 -1%;
     }
     .topicos-opcoes-mobile-fix {
         display: flex;
@@ -405,7 +412,7 @@ height: 4rem;
 }
 
 .button-confirmar {
-    background: linear-gradient(to right, #bc9648, #468aca);
+    background: linear-gradient(to right, #bc9648, #008d8c);
     color: white;
     border-style: none;
     box-shadow: 1px 1px 1px 1px;
@@ -417,7 +424,7 @@ height: 4rem;
 
 .button-confirmar:hover {
     letter-spacing: 0.8px;
-    background: linear-gradient(to left, #bc9648, #468aca);
+    background: linear-gradient(to left, #bc9648, #008d8c );
 }
 
 @media (max-width:426px) {
@@ -433,3 +440,4 @@ height: 4rem;
 }
 
 /* ================================================================================ */
+

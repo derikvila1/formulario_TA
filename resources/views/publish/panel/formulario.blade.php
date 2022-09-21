@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/radio.css">
     <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
         main {
@@ -309,21 +310,27 @@
                         <h3 style="font-size:30px;" class=" cafe-idioma p-padrao form-titulo">Café</h3>
                         <p style="font-size:20px;" class=" atendimento-idioma p-padrao atendimento form-titulo">Atendimento</p>
                         <section class="topicos-opcoes">
+
                             <section class="topicos-opcoes-mobile-fix">
-                                <input type="radio" id="atendimento-otimo" name="cafe_atendimento" value="otimo" class="outline custom-radio " required>
-                                <label class="otimo topico-opcoes-label" for="atendimento-otimo">Ótimo</label><br>
+                                <input type="radio" id="atendimento-otimo" name="cafe_atendimento" value="otimo" class="outline custom-radio span " required>
+                                <label class="otimo topico-opcoes-label" for="atendimento-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
+
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bom" name="cafe_atendimento" value="bom" required>
-                                <label for="atendimento-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="atendimento-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-regular" name="cafe_atendimento" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="atendimento-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-ruim" name="cafe_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem ;font-size:20px;" class="p-padrao variedade form-titulo">Variedade de Produtos
@@ -331,57 +338,69 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-otimo" name="cafe_variedade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="variedade-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="variedade-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-bom" name="cafe_variedade" value="bom" required>
-                                <label for="variedade-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="variedade-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-regular" name="cafe_variedade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="variedade-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-ruim" name="cafe_variedade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="variedade-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-otimo" name="cafe_cordialidade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="cordialidade-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="cordialidade-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bom" name="cafe_cordialidade" value="bom" required>
-                                <label for="cordialidade-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="cordialidade-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-regular" name="cafe_cordialidade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="cordialidade-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-ruim" name="cafe_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem ;font-size:20px;" class="p-padrao valores form-titulo">Valores</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-otimo" name="cafe_valores" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="Valores-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="Valores-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-bom" name="cafe_valores" value="bom" required>
-                                <label for="Valores-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="Valores-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-regular" name="cafe_valores" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="Valores-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                             <section class="topicos-opcoes-mobile-fix" style="margin-bottom: 3rem;">
                                 <input type="radio" id="Valores-ruim" name="cafe_valores" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="Valores-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                     </section>
@@ -393,22 +412,26 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-loja-otimo" name="loja_atendimento" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="atendimento-loja-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="atendimento-loja-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-loja-bom" name="loja_atendimento" value="bom" required>
-                                <label for="atendimento-loja-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="atendimento-loja-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-loja-regular" name="loja_atendimento" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="atendimento-loja-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-loja-ruim" name="loja_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-loja-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -417,44 +440,52 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-loja-otimo" name="loja_variedade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="variedade-loja-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="variedade-loja-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-loja-bom" name="loja_variedade" value="bom" required>
-                                <label for="variedade-loja-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="variedade-loja-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-loja-regular" name="loja_variedade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="variedade-loja-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="variedade-loja-ruim" name="loja_variedade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="variedade-loja-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-loja-otimo" name="loja_cordialidade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="cordialidade-loja-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="cordialidade-loja-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-loja-bom" name="loja_cordialidade" value="bom" required>
-                                <label for="cordialidade-loja-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="cordialidade-loja-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-loja-regular" name="loja_cordialidade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="cordialidade-loja-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-loja-ruim" name="loja_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-loja-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -462,22 +493,26 @@
                         <section class="topicos-opcoes" style="margin-bottom: 4rem;">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-loja-otimo" name="loja_valores" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="Valores-loja-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="Valores-loja-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-loja-bom" name="loja_valores" value="bom" required>
-                                <label for="Valores-loja-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="Valores-loja-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-loja-regular" name="loja_valores" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="Valores-loja-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="Valores-loja-ruim" name="loja_valores" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="Valores-loja-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -490,22 +525,26 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-otimo" name="bilheteria_atendimento" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="atendimento-bilheteria-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="atendimento-bilheteria-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-bom" name="bilheteria_atendimento" value="bom" required>
-                                <label for="atendimento-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="atendimento-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-regular" name="bilheteria_atendimento" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="atendimento-bilheteria-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="atendimento-bilheteria-ruim" name="bilheteria_atendimento" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="atendimento-bilheteria-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -513,44 +552,52 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="eficiencia-bilheteria-otimo" name="bilheteria_eficiencia" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="eficiencia-bilheteria-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="eficiencia-bilheteria-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="eficiencia-bilheteria-bom" name="bilheteria_eficiencia" value="ebom" required>
-                                <label for="eficiencia-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="eficiencia-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="eficiencia-bilheteria-regular" name="bilheteria_eficiencia" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="eficiencia-bilheteria-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="eficiencia-bilheteria-ruim" name="bilheteria_eficiencia" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="eficiencia-bilheteria-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao cordialidade form-titulo">Cordialidade</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bilheteria-otimo" name="bilheteria_cordialidade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="cordialidade-bilheteria-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="cordialidade-bilheteria-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bilheteria-bom" name="bilheteria_cordialidade" value="bom" required>
-                                <label for="cordialidade-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="cordialidade-bilheteria-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bilheteria-regular" name="bilheteria_cordialidade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="cordialidade-bilheteria-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section style="margin-bottom:4rem ;" class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-bilheteria-ruim" name="bilheteria_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-bilheteria-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                     </section>
@@ -562,22 +609,26 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-visitacao-otimo" name="condutores_cordialidade" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="cordialidade-visitacao-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="cordialidade-visitacao-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-visitacao-bom" name="condutores_cordialidade" value="bom" required>
-                                <label for="cordialidade-visitacao-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="cordialidade-visitacao-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-visitacao-regular" name="condutores_cordialidade" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="cordialidade-visitacao-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="cordialidade-visitacao" name="condutores_cordialidade" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="cordialidade-visitacao">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -585,22 +636,26 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="postura-visitacao-otimo" name="condutores_postura" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="postura-visitacao-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="postura-visitacao-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="postura-visitacao-bom" name="condutores_postura" value="bom" required>
-                                <label for="postura-visitacao-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="postura-visitacao-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="postura-visitacao-regular" name="condutores_postura" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="postura-visitacao-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="postura-visitacao-ruim" name="condutores_postura" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="postura-visitacao-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao contexto form-titulo">Contextualização Histórica
@@ -608,44 +663,52 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="contextualizacao-historica-otimo" name="condutores_contex" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="contextualizacao-historica-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="contextualizacao-historica-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="contextualizacao-historica-bom" required name="condutores_contex" value="bom">
-                                <label for="contextualizacao-historica-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="contextualizacao-historica-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="contextualizacao-historica-regular" required name="condutores_contex" value="regular">
                                 <label class="topico-opcoes-label regular" for="contextualizacao-historica-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="contextualizacao-historica-ruim" required name="condutores_contex" value="ruim">
                                 <label class="topico-opcoes-label ruim" for="contextualizacao-historica-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao valores form-titulo">Valores</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="valores-visitacao-otimo" name="condutores_valores" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="valores-visitacao-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="valores-visitacao-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="valores-visitacao-bom"name="condutores_valores" value="bom" required>
-                                <label for="valores-visitacao-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="valores-visitacao-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="valores-visitacao-regular"name="condutores_valores" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="valores-visitacao-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section style="margin-bottom: 4rem;" class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="valores-visitacao-ruim"name="condutores_valores" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="valores-visitacao-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                     </section>
@@ -657,22 +720,26 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conforto-otimo" name="instalacoes_conforto" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="instalacoes-conforto-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="instalacoes-conforto-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conforto-bom" name="instalacoes_conforto" value="bom" required>
-                                <label for="instalacoes-conforto-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="instalacoes-conforto-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conforto-regular" name="instalacoes_conforto" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="instalacoes-conforto-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conforto-ruim" name="instalacoes_conforto" value="-ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-conforto-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                         </section>
@@ -680,66 +747,78 @@
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-sinalizacao-otimo" name="instalacoes_sinalizacao" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="instalacoes-sinalizacao-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="instalacoes-sinalizacao-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-sinalizacao-bom" name="instalacoes_sinalizacao" value="bom" required>
-                                <label for="instalacoes-sinalizacao-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="instalacoes-sinalizacao-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-sinalizacao-regular" name="instalacoes_sinalizacao" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="instalacoes-sinalizacao-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-sinalizacao-ruim" name="instalacoes_sinalizacao" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-sinalizacao-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao limpeza form-titulo">Limpeza</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-limpeza-otimo" name="instalacoes_limpeza" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="instalacoes-limpeza-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="instalacoes-limpeza-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-limpeza-bom" name="instalacoes_limpeza" value="bom" required>
-                                <label class="topico-opcoes-label" for="instalacoes-limpeza-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label class="topico-opcoes-label" for="instalacoes-limpeza-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-limpeza-regular" name="instalacoes_limpeza" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="instalacoes-limpeza-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-limpeza-ruim" name="instalacoes_limpeza" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-limpeza-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                         <p style="margin-top:4rem;font-size:20px;" class="p-padrao conservacao form-titulo">Conservação</p>
                         <section class="topicos-opcoes">
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conservacao-otimo" name="instalacoes_conservacao" value="otimo" required>
-                                <label class="otimo topico-opcoes-label" for="instalacoes-conservacao-otimo">Ótimo</label><br>
+                                <label class="otimo topico-opcoes-label" for="instalacoes-conservacao-otimo">Ótimo</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conservacao-bom" name="instalacoes_conservacao" value="bom" required>
-                                <label for="instalacoes-conservacao-bom" class="Bom topico-opcoes-label">Bom</label><br>
+                                <label for="instalacoes-conservacao-bom" class="Bom topico-opcoes-label">Bom</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conservacao-regular" name="instalacoes_conservacao" value="regular" required>
                                 <label class="topico-opcoes-label regular" for="instalacoes-conservacao-regular">Regular</label>
+                                <!-- <div class="check"></div> -->
                             </section>
 
                             <section style="margin-bottom: 3rem;" class="topicos-opcoes-mobile-fix">
                                 <input type="radio" id="instalacoes-conservacao-ruim" name="instalacoes_conservacao" value="ruim" required>
                                 <label class="topico-opcoes-label ruim" for="instalacoes-conservacao-ruim">Ruim</label>
+                                <!-- <div class="check"></div> -->
                             </section>
                         </section>
                     </section>
@@ -748,13 +827,13 @@
             <!--Area de Criticas e Confirmação-->
             <section class="criticas">
                 <h4 class="titulo-BR color-titulos criticas-titulo">Críticas, Elogios ou Sugestões:</h4>
-                <textarea name="criticas_elogios" id="" cols="100" rows="10"></textarea>
+                <textarea name="criticas_elogios" id="" cols="100" rows="10" style=" font-size: 17px;"></textarea>
                 <input class="button-confirmar" type="submit" value="Confirmar Avaliação">
             </section>
         </form>
         </section>
     </main>
-    <<script src="/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

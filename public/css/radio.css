@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+input[type=radio]{
+    position: relative;
+    visibility: visible;
+  }
+
+label{
+    z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+.check:hover {
+    border: 5px solid #FFFFFF;
+}
+  input[type=radio]:checked ~ .check {
+    border: 5px solid #0DFF92;
+  }
+  
+  input[type=radio]:checked ~ .check::before{
+    background: transparent;
+  }
+  
+  input[type=radio]:checked ~ label{
+    color: black;
+    /* background: #0DFF92; */
+    background: linear-gradient(-45deg, #0DFF92 ,#bc9648);
+    border-radius: 5px;
+    letter-spacing: 2px;
+  }
