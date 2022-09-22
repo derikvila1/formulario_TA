@@ -102,6 +102,7 @@ $instalacoes_conservacao_ruim = 0;
 foreach ( $status as $fi ) {
  
  //dd($fi);
+ //echo($fi->nome);
 //-----------------------------------------
   if($fi->cafe_atendimento === "otimo"){
     $cafe_atendimento_otimo ++;

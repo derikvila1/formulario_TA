@@ -24,6 +24,8 @@ Route::get('/',                         [EditaisPublicController::class, 'formul
 Route::post('/',                         [EditaisPublicController::class, 'formularioSave']);
 Route::get('/new',         [EditaisPublicController::class, 'new']);
 Route::post('/new',        [EditaisPublicController::class, 'newSave']);
+Route::get('/relatorio',         [EditaisPublicController::class, 'relatorio']);
+Route::post('/relatorio',        [EditaisPublicController::class, 'relatorioSave']);
 
 
 //FORMULARIO TA

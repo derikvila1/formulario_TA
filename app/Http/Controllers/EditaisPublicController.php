@@ -71,4 +71,10 @@ public function formularioSave(Request $request)
         $status =  DB::table('formulario')->get();
         return view("publish.panel.new", compact('status'));
     }
+    public function relatorio()
+    {
+
+        $status =  DB::table('formulario')->get();
+        return view("publish.panel.relatorio", compact('status'));
+    }
 }
