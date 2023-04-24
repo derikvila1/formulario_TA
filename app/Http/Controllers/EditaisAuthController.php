@@ -18,6 +18,7 @@ class EditaisAuthController extends Controller
     {
 
         $status =  DB::table('formulario')->get();
+
         return view("publish.panel.new", compact('status'));
     }
 

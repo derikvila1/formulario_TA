@@ -656,8 +656,34 @@ foreach ( $status as $fi ) {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   
 }
+
+.av{
+  margin-top:10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.av .resp{
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.av:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 .title{
+
   float: center;
+}
+
+.box-av{
+  margin:15px;
+  padding: 30px;
+  border: 1px solid #000;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
     </style>
   </head>
@@ -706,6 +732,38 @@ foreach ( $status as $fi ) {
   <div class="column" id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
   <div class="column" id="instalacoes_conservacao" style="width: 300px; height: 200px;"></div>
 </div>
+
+<h1 class = "title" >AVALIAÇÕES</h1>
+
+@foreach($status as $status)
+<?php
+$data_hora_str = $status->created_at;
+$timestamp = strtotime($data_hora_str);
+$data_formatada = date('d/m/Y H:i:s', $timestamp);
+?>
+
+<div class="av">
+  <span>Nome:</span>
+  <span class="resp"> {{$status->nome}}</span>
+  <span>E-mail: </span>
+  <span class="resp">{{$status->email}}</span>
+  <span>Pais: </span>
+  <span class="resp">{{$status->pais}}</span>
+  <span>Cidade: </span>
+  <span class="resp">{{$status->cidade}}</span>
+  <span>Dia da visita: </span>
+  <span class="resp">{{$data_formatada}}</span>
+  <br>
+  <div class="box-av">
+  <span>Avaliação:</span>
+
+    <span class="resp">{{$status->criticas_elogios}}</span>
+  </div>
+
+</div>
+@endforeach
+
+
 
   </body>
 </html>
