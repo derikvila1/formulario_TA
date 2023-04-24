@@ -289,6 +289,13 @@ input {
     padding: 1rem;
 }
 
+input[type="radio"]:checked{
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+    border-width: 1px;
+}
+
 .topicos {
     background: whitesmoke;
     padding: 1rem;

@@ -306,7 +306,7 @@
                 <h2 class="p-padrao radio-titulo color-titulos">Com relação ao Teatro Amazonas, avalie os seguintes tópicos</h2>
                 <section class="topicos">
                     <!--Topico Cafe-->
-                    <section id="cafe">
+                    <section  id="cafe">
                         <h3 style="font-size:30px;" class=" cafe-idioma p-padrao form-titulo">Café</h3>
                         <p style="font-size:20px;" class=" atendimento-idioma p-padrao atendimento form-titulo">Atendimento</p>
                         <section class="topicos-opcoes">
