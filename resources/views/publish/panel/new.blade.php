@@ -717,8 +717,14 @@ body {
   background-color: white;
   margin: 10px 0;
   max-width:800px;
+  min-width:800px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+}
+@media (max-width:800px) {
+  .av{
+    min-width:98%
+  }
 }
 .av .resp{
   margin-right: 15px;
