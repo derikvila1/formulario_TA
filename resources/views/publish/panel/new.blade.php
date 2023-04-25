@@ -359,6 +359,7 @@ foreach ( $status as $fi ) {
    
 <html>
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -657,9 +658,65 @@ foreach ( $status as $fi ) {
   
 }
 
+.title{
+
+  float: center;
+}
+
+.box-av{
+  margin:15px;
+  padding: 30px;
+  border: 1px solid #000;
+}
+/*area de estartistica */
+body { 
+    background-color: #009900;
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    margin: 0 15%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    
+}
+@media (max-width: 768px)
+{
+  body {
+    margin: 0 5%;
+  }
+
+}
+.title { 
+  color: white;
+  margin : 50px 0px;
+  text-align:center;
+}
+.column{
+  margin :10px;
+  width: 300px; height: 200px;
+
+
+}
+.row{
+  max-width: 800px;
+}
+.center_row{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* area de avaliações*/
+
 .av{
-  margin-top:10px;
   padding: 20px;
+  color:black;
+  background-color: white;
+  margin: 10px 0;
+  max-width:800px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
@@ -671,16 +728,6 @@ foreach ( $status as $fi ) {
 .av:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.title{
-
-  float: center;
-}
-
-.box-av{
-  margin:15px;
-  padding: 30px;
-  border: 1px solid #000;
-}
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -690,47 +737,56 @@ foreach ( $status as $fi ) {
   <body>
 <div class="row">
   <h1 class = "title" >CAFÉ</h1>
-  <div class="column" id="cafe_atendimento" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="cafe_variedade" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="cafe_cordialidade" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="cafe_valores" style="width: 300px; height: 200px;"></div>
+  <div class = "center_row">
+    <div class="column" id="cafe_atendimento"></div>
+    <div class="column" id="cafe_variedade"></div>
+    <div class="column" id="cafe_cordialidade"></div>
+    <div class="column" id="cafe_valores"></div>
+  </div>
 </div>
 
 <div class="row">
 
 <h1 class = "title" >LOJA</h1>
-  <div class="column" id="loja_atendimento" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="loja_variedade" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="loja_cordialidade" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="loja_valores" style="width: 300px; height: 200px;"></div>
+<div class = "center_row">
+  <div class="column" id="loja_atendimento"></div>
+  <div class="column" id="loja_variedade"></div>
+  <div class="column" id="loja_cordialidade"></div>
+  <div class="column" id="loja_valores"></div>
+  </div>
 </div>
 
 <div class="row">
   
 <h1 class = "title" >BILHETERIA</h1>
-  <div class="column" id="bilheteria_atendimento" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="bilheteria_eficiencia" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="bilheteria_cordialidade" style="width: 300px; height: 200px;"></div>
-
+<div class = "center_row">
+  <div class="column" id="bilheteria_atendimento"></div>
+  <div class="column" id="bilheteria_eficiencia"></div>
+  <div class="column" id="bilheteria_cordialidade"></div>
+  </div>
 </div>
 
 
 <div class="row">
 
 <h1 class = "title" >CONDUTORES</h1>
-  <div class="column" id="condutores_cordialidade" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="condutores_postura" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="condutores_contex" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="condutores_valores" style="width: 300px; height: 200px;"></div>
+<div class = "center_row">
+  <div class="column" id="condutores_cordialidade"></div>
+  <div class="column" id="condutores_postura"></div>
+  <div class="column" id="condutores_contex"></div>
+  <div class="column" id="condutores_valores"></div>
+  </div>
 </div>
 
 <div class="row">
 
 <h1 class = "title" >INSTALAÇÕES</h1>
-  <div class="column" id="instalacoes_conforto" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="instalacoes_sinalizacao" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="instalacoes_limpeza" style="width: 300px; height: 200px;"></div>
-  <div class="column" id="instalacoes_conservacao" style="width: 300px; height: 200px;"></div>
+<div class = "center_row">
+  <div class="column" id="instalacoes_conforto"></div>
+  <div class="column" id="instalacoes_sinalizacao"></div>
+  <div class="column" id="instalacoes_limpeza"></div>
+  <div class="column" id="instalacoes_conservacao"></div>
+  </div>
 </div>
 
 <h1 class = "title" >AVALIAÇÕES</h1>
@@ -743,21 +799,30 @@ $data_formatada = date('d/m/Y H:i:s', $timestamp);
 ?>
 
 <div class="av">
+  <div>
   <span>Nome:</span>
   <span class="resp"> {{$status->nome}}</span>
+  </div>
+  <div>
   <span>E-mail: </span>
   <span class="resp">{{$status->email}}</span>
-  <span>Pais: </span>
+  </div>
+  <div><span>Pais: </span>
   <span class="resp">{{$status->pais}}</span>
-  <span>Cidade: </span>
+  </div>
+  <div><span>Cidade: </span>
   <span class="resp">{{$status->cidade}}</span>
-  <span>Dia da visita: </span>
+  </div>
+  <div><span>Dia da visita: </span>
   <span class="resp">{{$data_formatada}}</span>
+  </div>
   <br>
+  <div>
   <div class="box-av">
   <span>Avaliação:</span>
-
-    <span class="resp">{{$status->criticas_elogios}}</span>
+  <span style="display:block;word-break: break-all" class="resp">{{$status->criticas_elogios}}</span>
+  </div>
+    
   </div>
 
 </div>
